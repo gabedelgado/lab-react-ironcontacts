@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  margin-top: 40px;
+}
+
+.contactBookDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -26,6 +34,16 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.actionButtonsDiv button {
+  width: 180px;
+  margin: 15px
+}
+
+table {
+  border-spacing: 15px;
+  border-collapse: separate;
 }
 
 @keyframes App-logo-spin {
